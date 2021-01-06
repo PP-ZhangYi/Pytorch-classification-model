@@ -7,7 +7,6 @@ from utils.focal_loss import FocalLoss
 import argparse, os
 import time, datetime
 
-# import tqdm
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
